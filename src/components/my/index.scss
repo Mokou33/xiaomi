@@ -1,0 +1,99 @@
+.my{
+  font-size: .24rem;
+  margin-bottom: .8rem;
+  li{
+    background: url("../../static/img/my/setting.png") no-repeat .32rem/.48rem;
+  }
+  .header{
+    display: flex;
+    align-items: center;
+    height: 1.66rem;
+    background: url("../../static/img/my/bg.png") no-repeat center/100% #f37d0f;
+
+    img{
+      margin: 0 .16rem 0 .32rem;
+      width: .96rem;
+      height: .96rem;
+      overflow: hidden;
+      box-sizing: border-box;
+      border-radius: 100%;
+      border: 3px solid hsla(0,0%,100%,.4);
+      text-align: center;
+    }
+    p{
+      color: #fff;
+      text-align: left;
+    }
+  }
+
+  .order{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 .32rem;
+    height: .84rem;
+    border-bottom: 1px solid rgba(0,0,0,.15);
+    .odl{
+      font-size: .28rem;
+    }
+    .odr{
+      font-size: .24rem;
+    }
+  }
+  .info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 1.8rem;
+  }
+  .info > div{
+    display: inherit;
+    flex-direction: column;
+    align-items: center;
+    i{
+      margin-bottom: .18rem;
+      font-size: .44rem;
+      color: #bbb;
+    }
+  }
+  .vip, .serve, .Fcode, .set{
+    border-top: .2rem solid #f5f5f5;
+    li{
+      padding-left: 1.16rem;
+      height: 1.12rem;
+      line-height: 1.12rem;
+      a{
+        display: flex;
+        justify-content: space-between;
+        font-size: .28rem;
+        border-bottom: .02rem solid rgba(0,0,0,.15);
+        em{
+          margin-right: .32rem;
+          color: #bbb;
+        }
+      }
+    }
+  }
+  .set{
+    border-bottom: .6rem solid #f5f5f5;
+  }
+  .vt{
+    background-image: url('../../static/img/my/0.png');
+  }
+  .vb{
+    background-image: url("../../static/img/my/1.png");
+  }
+  .st{
+    background-image: url("../../static/img/my/2.png");
+  }
+  .sb{
+    background-image: url("../../static/img/my/4.png");
+  }
+  .Fc{
+    background-image: url("../../static/img/my/5.png");
+  }
+  .Se{
+    background-image: url("../../static/img/my/setting.png");
+  }
+
+}

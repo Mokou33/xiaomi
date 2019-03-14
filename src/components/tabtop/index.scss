@@ -1,0 +1,17 @@
+.tabtop{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  font-size: .3rem;
+  color: #666;
+  background-color: #eee;
+  z-index: 999;
+  i{
+    font-size: .4rem;
+  }
+}

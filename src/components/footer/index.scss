@@ -1,0 +1,29 @@
+.footer{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 1.08rem;
+  background-color: #fff;
+  z-index: 999;
+  a{
+    display: inherit;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 100%;
+    font-size: .22rem;
+    color: #333;
+  }
+
+  .active{
+    color: #ff6700;
+  }
+  em{
+    color: #ff6700;
+  }
+}

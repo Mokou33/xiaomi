@@ -1,0 +1,75 @@
+.shopdedatils{
+  position: relative;
+  text-align: left;
+  margin-bottom: 2rem;
+  background: white;
+  img{
+    display: block;
+    margin: auto;
+  }
+  .bot{
+    h3{
+      font-size: .4rem;
+    }
+    p{
+      font-size: .4rem;
+    }
+    .money{
+      color: red;
+      .symbol{
+        font-size: 0.22rem;
+      }
+      .price{
+        font-size: 0.32rem;
+      }
+    }
+    .courier{
+      font-size: 0.25rem;
+      color: #999;
+    }
+    .buyNum{
+      border: 1px solid #e7e7e7;
+      border-left: none;
+      border-right: none;
+
+      padding: 0.20rem;
+      .buyfont{
+        font-size: 0.40rem;
+      }
+      .addNum{
+        font-size: 0.40rem;
+        button{
+          width: 0.60rem;
+          height: 0.60rem;
+          background: #f1f1f1;
+          display: inline-block;
+          color: #878787;
+          text-align: center;
+          font-size: .14rem;
+          border: 0;
+          outline: 0;
+        }
+        button:active{
+          background: #ddd;
+        }
+      }
+    }
+    /*.buy{
+      display: flex;
+      height: 0.96rem;
+      text-align: center;
+      line-height: 0.96rem;
+      a{
+        flex: 1;
+        color: white;
+        font-size: 0.31rem;
+      }
+      .addCart{
+        background: #ff9402;
+      }
+      .nowBuy{
+        background: #ff5000;
+      }
+    }*/
+  }
+}
